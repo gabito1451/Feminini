@@ -38,7 +38,7 @@ Designed to empower modern merchants and conscious consumers with fast, secure, 
 | Layer         | Tech Used                      |
 |---------------|-------------------------------|
 | Contracts     | Soroban (Stellar)              |
-| Frontend      | React                          |
+| Frontend      | Next                           |
 | Backend       | Node.js                        |
 | Infrastructure| Docker, Kubernetes, AWS        |
 | Payments      | Stellar Network                |
