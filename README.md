@@ -1,47 +1,54 @@
-# 🛒 Hess Engine — Decentralized eCommerce on Stellar
+# 🛍️ Feminini — Web3 eCommerce Powered by Stellar
 
-**Hess Engine** is a modular eCommerce platform powered by the **Stellar network**, enabling blockchain-based payments, loyalty programs, and automated transaction logic via **Soroban smart contracts**.
+**Feminini** is a decentralized eCommerce platform built on the **Stellar network**. It enables blockchain-native payments, automated order handling, and tokenized loyalty rewards through **Soroban smart contracts**.
 
-Designed for developers building fast, secure, and crypto-native online stores.
-
----
-
-## 🌟 Features
-
-- **Stellar-Based Payments**  
-  Accept payments using Stellar Lumens (XLM) or custom tokens.
-- **Smart Contract Automation**  
-  Use [Soroban](https://soroban.stellar.org/) for handling:
-
-  - Order processing
-  - Escrow and refunds
-  - Loyalty point issuance
-
-- **Tokenized Loyalty Programs**  
-  Reward users with custom Stellar tokens for purchases and engagement.
-
-- **Modern Web Stack**  
-  Built with React, Node.js, Docker, and Kubernetes — ready for scalable deployment.
+Designed to empower modern merchants and conscious consumers with fast, secure, and transparent transactions.
 
 ---
 
-## 🔧 Tech Stack
+## ✨ Features
 
-| Layer           | Tech Used                               |
-| --------------- | --------------------------------------- |
-| Smart Contracts | [Soroban](https://soroban.stellar.org/) |
-| Blockchain      | [Stellar Network](https://stellar.org)  |
-| Frontend        | React + Web3 Wallet Integration         |
-| Backend         | Node.js Microservices                   |
-| Infrastructure  | Docker, Kubernetes, AWS                 |
+- **Blockchain Payments**  
+  Accept Stellar Lumens (XLM) or custom tokens directly from your customers.
+  
+- **Smart Contract Logic (Soroban)**  
+  Automate:
+  - Order fulfillment
+  - Refunds and disputes
+  - Loyalty rewards issuance
+
+- **Loyalty on the Ledger**  
+  Feminini lets merchants issue branded tokens to reward customer engagement.
+
+- **Modern UI & Dev Stack**  
+  React frontend, Node.js backend, Docker + Kubernetes for production-ready scalability.
 
 ---
 
-## ⚙️ Installation
+## 🔗 Built on Stellar
+
+- **Smart Contracts**: [Soroban](https://soroban.stellar.org/)  
+- **Wallet Integration**: [Freighter](https://www.freighter.app/)  
+- **Stellar Network**: Fast, low-cost blockchain optimized for financial applications
+
+---
+
+## 🛠 Tech Stack
+
+| Layer         | Tech Used                      |
+|---------------|-------------------------------|
+| Contracts     | Soroban (Stellar)              |
+| Frontend      | React                          |
+| Backend       | Node.js                        |
+| Infrastructure| Docker, Kubernetes, AWS        |
+| Payments      | Stellar Network                |
+
+---
+
+## ⚙️ Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/hess-ecommerce.git
-cd hess-ecommerce
-```
+git clone https://github.com/your-username/feminini.git
+cd feminini
