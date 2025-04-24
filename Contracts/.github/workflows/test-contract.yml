@@ -1,0 +1,40 @@
+name: Test Soroban Smart Contracts
+
+on:
+  push:
+    paths:
+      - "Contracts/**"
+  pull_request:
+    paths:
+      - "Contracts/**"
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    defaults:
+      run:
+        working-directory: Contracts
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set Up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Add WASM Target
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Build Smart Contract
+        run: cargo build --target wasm32-unknown-unknown --release
+
+      - name: Run Unit Tests
+        run: cargo test
