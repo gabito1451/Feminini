@@ -1,6 +1,6 @@
 # 🛍️ Feminini — Web3 eCommerce Powered by Stellar
 
-**Feminini** is a decentralized eCommerce platform built on the **Stellar network**. It enables blockchain-native payments, automated order handling, and tokenized loyalty rewards through **Soroban smart contracts**.
+**Feminini** is a decentralized eCommerce platform built on the **Starknet network**. It enables blockchain-native payments, automated order handling, and tokenized loyalty rewards through **Cairo smart contracts**.
 
 Designed to empower modern merchants and conscious consumers with fast, secure, and transparent transactions.
 
@@ -9,10 +9,10 @@ Designed to empower modern merchants and conscious consumers with fast, secure, 
 ## ✨ Features
 
 - **Blockchain Payments**  
-  Accept Stellar Lumens (XLM) or custom tokens directly from your customers.
-  
-- **Smart Contract Logic (Soroban)**  
+  Accept Starknet tokens directly from your customers.
+- **Smart Contract Logic (Cairo)**  
   Automate:
+
   - Order fulfillment
   - Refunds and disputes
   - Loyalty rewards issuance
@@ -25,23 +25,23 @@ Designed to empower modern merchants and conscious consumers with fast, secure, 
 
 ---
 
-## 🔗 Built on Stellar
+## 🔗 Built on Sarknet
 
-- **Smart Contracts**: [Soroban](https://soroban.stellar.org/)  
-- **Wallet Integration**: [Freighter](https://www.freighter.app/)  
-- **Stellar Network**: Fast, low-cost blockchain optimized for financial applications
+- **Smart Contracts**: [Cairo]
+- **Wallet Integration**: [Argent]
+- **Starknet Network**: Fast, low-cost blockchain optimized for financial applications
 
 ---
 
 ## 🛠 Tech Stack
 
-| Layer         | Tech Used                      |
-|---------------|-------------------------------|
-| Contracts     | Soroban (Stellar)              |
-| Frontend      | Next                           |
-| Backend       | Node.js                        |
-| Infrastructure| Docker, Kubernetes, AWS        |
-| Payments      | Stellar Network                |
+| Layer          | Tech Used               |
+| -------------- | ----------------------- |
+| Contracts      | Cairo                   |
+| Frontend       | Next                    |
+| Backend        | Node.js                 |
+| Infrastructure | Docker, Kubernetes, AWS |
+| Payments       | starknet                |
 
 ---
 
@@ -52,3 +52,4 @@ Designed to empower modern merchants and conscious consumers with fast, secure, 
 ```bash
 git clone https://github.com/your-username/feminini.git
 cd feminini
+```
