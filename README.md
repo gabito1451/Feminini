@@ -1,4 +1,4 @@
-# 🛍️ Feminini — Web3 eCommerce Powered by Stellar
+# 🛍️ Feminini — Web3 eCommerce Powered by Starknet
 
 **Feminini** is a decentralized eCommerce platform built on the **Starknet network**. It enables blockchain-native payments, automated order handling, and tokenized loyalty rewards through **Cairo smart contracts**.
 
